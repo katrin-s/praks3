@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: #212121;
+  }
+
+* li {
+    list-style: none;  
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+	width: 1140px;
+	/*margin top, right, bottom, left*/
+	position: relative;
+	margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+
+header {
+	display: inline-block;
+	text-align: center;
+	border-style: dotted;
+	border-bottom-color: whitesmoke;
+	height: 90px;
+	width: 100%;
+}
+
+header .logo {
+	color: whitesmoke;
+	font-size: 3em;
+	margin: auto;
+	padding-top: 22px;
+	background-color: transparent;
+}
+
+.content {
+	color: gainsboro;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.content a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.genre {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	margin-bottom: 2%;
+	color: gainsboro;
+	padding-left: 10px;
+}
+
+.back-button, .album-name {
+	text-transform: uppercase;
+	color: gainsboro;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-bottom: 1%;
+}
+
+.album-name {
+	font-size: 1.3em;
+}
+
+.back-button {
+	font-size: 1em;
+}
+
+.album {
+	margin: auto 10px;
+}
+
+.cover {
+	height: 26em;
+}
+
+.album-title {
+	margin-top: 4%;
+	font-size: 1.3em;
+}
+
+.description {
+	font-size: 1.2em;
+	margin-top: 4%;
+}
+
+footer {
+	text-align: center;
+	background-color: dimgray;
+	padding: 10px;
+	margin-top: 20px;
+	color: gainsboro;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}	
+
+.copyright {
+	background-color: transparent;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}	
+
+.album-info1 {
+	color: gainsboro;
+	display: flex;
+}
+
+.album-youtube, .youtube {
+	height: 26em;
+	margin-left: 10px;
+}
+
+.price-list {
+	margin-left: 10px;
+	width: 30em;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1em;
+}
+
+table tr {
+	border-top: 1px solid whitesmoke;
+}
+
+table td {
+	padding: 4px;
+	text-align: right;
+}
+
+table th {
+	padding: 4px;
+	text-align: left;
+}
+
+.youtube, .video, .audio {
+	margin: 0 auto;
+}
